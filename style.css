@@ -48,11 +48,14 @@ html,body{
 .sbtn{
     border: 0;
     border-radius: 20px;
-    width: 15%;  
-    background-color: gainsboro;
+    width: 20%;
+    color: white;
+    background-color: #E32636;
+    padding: 0px;
+    font-weight: 500;
 }
 .sbtn:hover{
-    background-color: darkgray;
+    background-color: #AA0000;
     cursor: pointer;
 }
 
@@ -114,6 +117,39 @@ color: whitesmoke;
         }
 
         .box{
-
+            padding: 40px 10px;
         }
+
+        .search input{
+            width: 75%;
+        }
+        
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7px;
+    margin-top: 9vh;
+    flex-wrap: wrap;
+}
+
+.sbtn {
+    border: 0;
+    border-radius: 20px;
+    width: 20%;
+    color: white;
+    background-color: #E32636;
+    padding: 0px;
+    font-weight: 500;
+}
+
+.btn:hover{
+    background-color: #AA0000;
+}
+
+.btn:hover{
+    background-color: #AA0000;
+    cursor: pointer;
+}
+
     }
